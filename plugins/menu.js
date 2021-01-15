@@ -32,26 +32,26 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       .replace(/%week/g, week)
       .replace(/%date/g, date)
       .replace(/%time/g, time): `
-🤖 [NFQ BOT] 🤖
-Created Bye: @Drawl Nag
+🤖 [БОТ 3.0] 🤖
+Создатель: @HELPMAN
 
-Hi, ${name} 👋
-Exp: ${exp}
+Привет, ${name} 👋
+Опыт(карма): ${exp}
 
 Cara Tambah XP:
 +1 Exp/pesan biasa
 +10 Exp/command
 
 📟 Waktu: ${time}
-📆 Tanggal: ${week}, ${date}
+📆 Сегодня: ${week}, ${date}
 
 ${more.repeat(1000)}
-╠═════✪〘 Menu 〙✪═══
+╠═════✪〘 МЕНЮ 〙✪═══
 ║
 ╠═〘 Xp 〙 ═
-╠➥ ${_p}leaderboard [jumlah user]
+╠➥ ${_p}leaderboard [СПИСОК ЛИДЕРОВ]
 ║
-╠═〘 Command 〙 ═
+╠═〘 КОМАНДЫ 〙 ═
 ╠➥ ${_p}menu
 ╠➥ ${_p}help
 ╠➥ ${_p}?
