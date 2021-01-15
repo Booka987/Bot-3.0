@@ -124,7 +124,7 @@ ${more.repeat(1000)}
     conn.reply(m.chat, {...preview, text}, m)
   }
 }
-handler.command = /^(menu|help|\?)$/i
+handler.command = /^(меню|помощь|\?)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
