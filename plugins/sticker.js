@@ -9,7 +9,7 @@ let handler  = async (m, { conn, args }) => {
     if (!img) throw img
     let stiker = await sticker(img)
 stiker = await nStiker(stiker, {
- author: 'You',
+ author: 'Вы',
  name: 'Stickers'
 })
     conn.sendMessage(m.chat, stiker, MessageType.sticker, {
@@ -22,7 +22,7 @@ stiker = await nStiker(stiker, {
     })
   }
 }
-handler.command = /^stic?ker$/i
+handler.command = /^стик?ер$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
