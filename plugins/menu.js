@@ -52,8 +52,8 @@ ${more.repeat(1000)}
 ╠➥ ${_p}leaderboard [СПИСОК ЛИДЕРОВ]
 ║
 ╠═〘 КОМАНДЫ 〙 ═
-╠➥ ${_p}menu
-╠➥ ${_p}help
+╠➥ ${_p}меню(список команд)
+╠➥ ${_p}помощь
 ╠➥ ${_p}?
 ║
 ╠═〘 Tutor BoT 〙 ═
@@ -72,7 +72,7 @@ ${more.repeat(1000)}
 ║
 ╠═〘 Others 〙 ═
 ╠➥ ${_p}qr <teks>
-╠➥ ${_p}stiker (caption)
+╠➥ ${_p}стикер (caption)
 ╠➥ ${_p}stiker <url>
 ╠➥ ${_p}toimg (reply)
 ╠➥ ${_p}ssweb <url>
