@@ -124,13 +124,13 @@ global.prems = []
 
 global.dfail = (type, m, conn) => {
   let msg = {
-    owner: 'Perintah ini hanya dapat digunakan oleh Owner Nomor!',
+    owner: 'Эту команду может использовать только владелец номера.!',
     mods: 'Perintah ini hanya dapat digunakan oleh Moderator!',
     premium: 'Perintah ini hanya untuk member Premium!',
-    group: 'Perintah ini hanya dapat digunakan di Grup!',
+    group: 'Эту команду можно использовать только в группах!',
     private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-    admin: 'Perintah ini hanya untuk admin grup!',
-    botAdmin: 'Jadikan bot sebagai admin untuk menggunakan perintah ini!'
+    admin: 'Эта команда предназначена только для администраторов группы!',
+    botAdmin: 'Сделайте бота администратором, чтобы использовать эту команду!'
   }[type]
   msg && conn.reply(m.chat, msg, m)
 }
