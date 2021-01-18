@@ -5,7 +5,7 @@ let handler  = async (m, { conn, args }) => {
   } : {})
   conn.reply(m.chat, `_Mengirim pesan broadcast ke jika ada kendala Instagram:@arpunchs ${groups.length} grup_`, m)
 }
-handler.command = /^(broadcast|bc)(group|grup|gc)$/i
+handler.command = /^(broadcast|рассылка)(group|grup|gc)$/i
 handler.owner = true
 handler.mods = true
 handler.premium = false

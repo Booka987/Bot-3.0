@@ -1,7 +1,7 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
   let preview = {}
   try {
-    if (!conn.menu) preview = await conn.generateLinkPreview('https://github.com/Arya274/Arya-Bot')
+    if (!conn.menu) preview = await conn.generateLinkPreview('https://youtube.com/channel/UCTJeVQCq5Rbh9sL92smoJeg')
   } catch (e) {
     try {
       if (!conn.menu) preview = await global.conn.generateLinkPreview('https://github.com/Nurutomo/wabot-aq')
@@ -10,7 +10,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
     let exp = global.DATABASE.data.users[m.sender].exp
     let name = conn.getName(m.sender)
     let d = new Date
-    let locale = 'id-Id'
+    let locale = 'ru-ru'
     let weton = ['Pon','Wage','Kliwon','Legi','Pahing'][Math.floor(d / 84600000) % 5]
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
     let date = d.toLocaleDateString(locale, {
@@ -38,7 +38,7 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 Привет, ${name} 👋
 Опыт(карма): ${exp}
 
-Cara Tambah XP:
+Начисление:
 +1 Exp/pesan biasa
 +10 Exp/command
 
